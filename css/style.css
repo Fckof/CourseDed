@@ -1,0 +1,26 @@
+body{
+	background-color: rgb(185, 213, 231);
+}
+.navbar{
+	border-radius:0 0 10px 10px;
+}
+/* .card,.card-body{
+	width: 20rem;
+	height:20rem;
+	
+} */
+.card{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.card-body{
+	height: 100%;
+	transition: .3s;
+}
+.card-body:hover{
+	transition: .3s;
+	box-shadow: 0 0 10px 5px rgb(247, 199, 144);
+}
+.main{
+	flex-wrap: wrap;
+}
