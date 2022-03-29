@@ -11,7 +11,7 @@ include_once("connect.php");
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/style.css">
-	<title>Лучшая аппаратура на территории РФ</title>
+	<title>Заявки</title>
 </head>
 
 <body>
@@ -21,10 +21,10 @@ include_once("connect.php");
 		<?include_once("header.php")?>
 		<!-----------------------------------------------------------------------------------------------main -->
 
-	
+	</div>
+	<h1 class="display-4 text-center mt-3">Все заявки на аренду:</h1>
 	<div class="container d-flex justify-content-center main mb-4">
-		<h1 class="display-4 text-center mt-3">Список Российских фильмов, в которых использовалось наше оборудование:</h1>
-		<? include_once("req/getfilms.php"); ?>
+		<? include_once("req/getrequests.php"); ?>
 		<!-- <form class="card mt-3 w-75" >
 			<div class="card-body ">
 				<h5 class="card-title ">Card title</h5>
